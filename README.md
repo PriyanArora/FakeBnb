@@ -1,6 +1,6 @@
 # FakeBnb
 
-A practice project built to learn full-stack web development. It is a Airbnb clone where users can sign up, log in, browse listings, create their own listings, and leave reviews.
+A practice project built as a refresher, It is a Airbnb clone where users can sign up, log in, browse listings, create their own listings, and leave reviews.
 
 ---
 
@@ -47,7 +47,7 @@ use fakebnb
 db.listings.find()
 ```
 
-You should see 30 listing documents printed out. If you do, the data is in correctly.
+You should see about 30 listing documents printed out. If you do, the data is in correctly.
 
 **5. Start the server**
 
@@ -111,6 +111,8 @@ FakeBnb/
 ---
 
 ## About This Project
-Follows an MVC pattern with models, views, and controllers separated into their own folders. The routes folder is kept thin and only maps URLs to controller functions.
+Follows an MVC pattern. The routes folder is kept thin and only maps URLs to controller functions.
 
-The project is not meant for production. There is no input sanitization beyond basic Joi validation, no image upload support, no user authorization checks on listings yet, and the session secret is hardcoded using hashing, salting, cookies. 
+This was a boring practice project and I hated every second of it.
+
+No image upload support, no user authorization checks on listings, but there is Basic Joi validation, and the session secret is hardcoded using hashing, salting, cookies. 
